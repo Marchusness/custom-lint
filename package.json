@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-mg-custom",
+  "version": "1.0.0",
+  "description": "my personal eslint rules that i use in all my projects",
+  "files": [
+    "base-eslint.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@eslint/js": "^9.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "@vercel/style-guide": "^5.2.0",
+    "eslint": "^8.57.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-deprecation": "^2.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-only-warn": "^1.1.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
+    "eslint-plugin-unused-imports": "^3.2.0",
+    "globals": "^15.2.0",
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^7.9.0"
+  }
+}
