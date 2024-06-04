@@ -85,6 +85,7 @@ module.exports = {
       "code": 150,
       "ignoreUrls": true,
       "ignoreStrings": true,
+      "ignoreComments": true,
     }],
     "object-property-newline": "error",
     "object-curly-newline": ["error", {
