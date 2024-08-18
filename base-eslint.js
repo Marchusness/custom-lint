@@ -22,8 +22,8 @@ module.exports = {
       },
     },
     "react": {
-      "version": "detect"
-    }
+      "version": "detect",
+    },
   },
   ignorePatterns: [
     ".*.js",
