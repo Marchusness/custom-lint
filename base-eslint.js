@@ -47,7 +47,7 @@ module.exports = {
     "sort-imports-es6-autofix",
   ],
   rules: {
-    "indent": "off",
+    "indent": ["error", 2],
     "@typescript-eslint/switch-exhaustiveness-check": "error",
     "react/jsx-first-prop-new-line": [
       "error",
@@ -56,6 +56,7 @@ module.exports = {
     "react/jsx-max-props-per-line": [2, {
       maximum: 1,
     }],
+    'react/jsx-closing-bracket-location': [1, 'line-aligned'],
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "sort-imports-es6-autofix/sort-imports-es6": [2, {
@@ -80,7 +81,6 @@ module.exports = {
       "functions": "always-multiline",
     }],
     "function-paren-newline": ["error", "multiline"],
-    "@typescript-eslint/indent": ["error", 2],
     "max-len": ["error", {
       "code": 150,
       "ignoreUrls": true,
